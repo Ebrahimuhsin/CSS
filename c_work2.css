@@ -1,0 +1,25 @@
+.main{
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    margin-left: 400px;
+  margin-top: 300px;
+  margin-bottom: 300px;
+  margin-left: 600px;
+
+}
+.black{
+    background-color: black;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+}
+.red{
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 250px;
+    height: 250px;
+}

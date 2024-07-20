@@ -1,0 +1,46 @@
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  .card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 10%;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+ .card img,.card {
+    width: 40%;
+    height: auto;
+  }
+
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  .card-author {
+    font-size: 12px;
+    color: #999;
+  }
