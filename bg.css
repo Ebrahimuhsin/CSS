@@ -1,0 +1,59 @@
+/* main{
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    margin-left: 400px;
+  margin-top: 300px;
+  margin-bottom: 300px;
+  margin-left: 600px;
+
+}
+sub1{
+    background-color: black;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+}
+sub2{
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 250px;
+    height: 250px;
+} */
+/* body{
+    background-image:url(alien.jpeg);
+    background-repeat:repeat-y;
+     background-attachment:scroll;
+     background-position: top left;
+} */
+ /* short cuts */
+/* body{
+background: url(alien.jpeg) no-repeat scroll top right;
+} */
+ /* h1{
+border-style:dashed solid ;
+border-radius: 50px;
+border-right-color: rgb(255, 27, 27);
+border-left-color: blue;
+} */
+ h1{
+    text-align: justify;
+    border-style: solid;
+    margin: auto;
+    padding:0%;
+    height: 200px;
+    width: 300px;
+    
+
+ }
+ h1 span{
+    /* vertical-align: sub; */
+    /* vertical-align: super; */
+    vertical-align:;
+ }
+a{
+    text-decoration:line-through;
+}
