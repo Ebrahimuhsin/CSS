@@ -1,0 +1,43 @@
+/* div{
+    border: solid;
+    background-color: lightgreen;
+    height: 200px;
+    width: 100px;
+    overflow: hidden;
+} */
+/* div{
+    border: solid;
+    background-color: lightgreen;
+    height: 200px;
+    width: 100px;
+    overflow: scroll;
+} */
+/* div{
+    border: solid;
+    background-color: lightgreen;
+    height: 200px;
+    width: 100px;
+    overflow: auto;
+} */
+/* div{
+    border: solid;
+    background-color: lightgreen;
+    height: 200px;
+    width: 100px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+} */
+div{
+    border: solid;
+    background-color: lightgreen;
+    height: 200px;
+    width: 100px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.greenDiv{
+    background-color: lightgreen;
+    width: 80%;
+    margin: 3px;
+    aspect-ratio: 4/1;
+  }

@@ -1,0 +1,46 @@
+/* img{
+    position:absolute;
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+    height: 400px;
+    width: 400px;
+}
+p{
+    color: white;
+}
+h1{
+    color: whitesmoke;
+} */
+ .container{
+    position: relative;
+ }
+ .black{
+    position: relative;
+    height: 100px;
+    background-color: antiquewhite;
+    border: solid;
+    z-index: 1;
+ }
+ .green{
+    position: absolute;
+    height: 100px;
+    background-color: rgb(33, 255, 81);
+    border: solid;
+    z-index: 1;
+    top: 50px;
+    left: 100px;
+    z-index: 2;
+    width: 600px;
+ }
+ .blue{
+    position: absolute;
+    height: 100px;
+    background-color: rgb(23, 100, 214);
+    border: solid;
+    z-index: 1;
+    top: 70px;
+    left: 150px;
+    z-index: 3;
+    width: 300px;
+ }
