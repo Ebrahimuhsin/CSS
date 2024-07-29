@@ -1,0 +1,511 @@
+.navbar-ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(245, 245, 247, 0.9) ;
+    margin: 0;
+    top: 0;
+    position: fixed;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    
+    
+  }
+  
+  .navbar-ul li a {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    cursor: pointer;
+  }
+  
+  .navbar-ul li {
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .main p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding-top: 55px;
+  }
+  
+  .main p a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .main p a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    background:#f5f5f7;
+  }
+  
+  .hero-image {
+    background: 
+      url("https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-air-segment-202301?wid=800&hei=600&fmt=png-alpha&.v=1671647221757") no-repeat center center;
+    height: 900px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .hero-heading h1 {
+    padding-top: 50px;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .hero-heading p {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .hero-heading-link {
+    display:flex;
+    justify-content:space-evenly;
+    padding-top: 40px;
+  }
+  
+  .hero-heading-link a {
+    font-size: 20px;
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .hero-heading-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero-2 {
+    background:rgba(251, 251, 253, .8);
+  }
+  
+  .hero-image-2 {
+    background: 
+      url("https://www.apple.com/v/home/bb/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large_2x.jpg") no-repeat center center;
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .hero-heading-2 h1 {
+    padding-top: 50px;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-heading-2 p {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+  }
+  
+  
+  .hero-3 {
+    background:rgba(251, 251, 253, .8);
+  }
+  
+  .hero-image-3 {
+    background: 
+      url("https://www.apple.com/hk/en/home/heroes/iphone-14/images/hero_iphone14_yellow__eun20sn4imi6_large_2x.jpg") no-repeat center center;
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .hero-heading-3 h1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .hero-heading-3 p {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+  
+  }
+  
+  .product-row-1 {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .product-block-1 {
+    width:50%;
+    
+  }
+  
+  .product-block-1-img {
+      background: 
+      url("https://www.apple.com/hk/en/home/promos/watch-series-8-spring/images/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large_2x.jpg") no-repeat center center;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-block-1-heading h1 {
+      padding-top: 40px;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .product-block-1-heading img {
+    height: 30px;
+    width:40px;
+  }
+  
+  .product-block-1-heading h5 {
+    color: red;
+    text-align: center;
+    margin:0;
+    font-size:15px;
+    font-weight: 100;
+    margin-top: 10px;
+  }
+  
+  .product-block-1-heading p {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+  } 
+  
+  .product-link {
+    display:flex;
+    justify-content:space-evenly;
+    padding-top: 20px;
+  }
+  
+  .product-link a {
+    font-size: 20px;
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .product-link a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .product-block-2 {
+    width:50%
+  }
+  
+  .product-block-2-img {
+      background: 
+      url("https://www.apple.com/hk/en/home/promos/ipad-pro-refresh/images/promo_ipadpro_refresh__evi9utuixwuq_large_2x.jpg") no-repeat center center;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-block-2-heading h1 {
+      padding-top: 40px;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .product-block-2-heading img {
+    height: 40px;
+    width:50px;
+  }
+  
+  .product-block-2-heading img {
+    height: 45px;
+    width: 45px;
+  }
+  
+  .product-block-2-heading p {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+  } 
+  
+  .product-link {
+    display:flex;
+    justify-content:space-evenly;
+    padding-top: 20px;
+  }
+  
+  .product-link a {
+    font-size: 20px;
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .product-link a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .product-row-2 {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .product-block-3 {
+    width:50%;
+    
+  }
+  
+  .product-block-3-img {
+      background: 
+      url("https://www.apple.com/v/home/bb/images/promos/mac-studio/promo_mac_studio__f6bq9ooh0qaa_large_2x.jpg") no-repeat center center;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-block-3-heading h1 {
+      padding-top: 40px;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    color: black;
+  }
+  
+  
+  
+  .product-block-3-heading p {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    padding-top: 5px;
+    color: black;
+  } 
+  
+  .product-block-4 {
+    width:50%
+  }
+  
+  .product-block-4-img {
+      background: 
+      url("https://www.apple.com/v/home/bb/images/promos/airpods-pro/promo_airpods_pro_avail__gaxggskofx6y_large_2x.jpg") no-repeat center center;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-block-4-heading h1 {
+      padding-top: 40px;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .product-block-4-heading img {
+    height: 40px;
+    width:50px;
+  }
+  
+  .product-block-4-heading img {
+    height: 45px;
+    width: 45px;
+  }
+  
+  .product-block-4-heading p {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+  } 
+  
+  .product-row-3 {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .product-block-5 {
+    width:50%;
+    
+  }
+  
+  .product-block-5-img {
+      background: 
+      url("https://www.apple.com/v/home/bb/images/promos/homepod/promo_homepod__f7jnolq94m2y_large_2x.jpg") no-repeat center center;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-block-5-heading h1 {
+      padding-top: 40px;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  
+  .product-block-5-heading p {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+  } 
+  
+  .product-block-6 {
+    width:50%
+  }
+  
+  .product-block-6-img {
+      background: 
+      url("https://www.apple.com/v/home/bb/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_large_2x.jpg") no-repeat center center;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-block-6-heading h1 {
+      padding-top: 40px;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    color: black;
+  }
+  
+  
+  
+  
+  
+  .product-block-6-heading p {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    padding-top: 5px;
+    color: black;
+  } 
+  
+  .product-block-6-heading img {
+    width: 50px;
+    height: 25px;
+  }
+  
+  .footer-background-color {
+    background: #f5f5f7;
+  }
+  
+  .footer-container {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  
+  .footer-p p {
+    color: #6e6e73;
+    font-size: 12px;
+    padding: 17px 0 11px;
+    border-bottom: 1px solid #d2d2d7;
+    
+  }
+  
+  .footer-container h5 {
+    font-size: 15px;
+    color: #1d1d1f
+  }
+  
+  .footer-option {
+  display: flex;
+  }
+  
+  .footer-container ul {
+    list-style: none; 
+    
+  }
+  
+  .footer-container li {
+    color: #6e6e73;
+    font-weight: 100;
+    margin-bottom:7px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .footer-container li:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-shop p{
+    color: #6e6e73;
+    font-size: 15px;
+    padding: 17px 0 11px;
+    border-bottom: 1px solid #d2d2d7;
+  }
+  
+  
+  
+  .footer-shop p span {
+    color: #0066cc ;
+    text-decoration: underline;
+  }
+  
+  .footer-last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .footer-last p {
+     color: #6e6e73;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  .footer-last ul {
+    display: flex;
+    gap: 10px;
+    
+  
+  }
+  
+  .footer-last li {
+    font-size: 15px;
+    border-right: 1px solid #d2d2d7;
+    padding-right: 10px;
+  }
