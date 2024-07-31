@@ -45,7 +45,15 @@ body{
     height: 70px;
     text-align: center;
 }
+.welcome1{
+    width: 550px;
+    height: 20px;
+    margin-left: 300px;
+}
 .navigation{
 padding-left: 20%;
+}
+.country{
+width: 400px;
 }
 
