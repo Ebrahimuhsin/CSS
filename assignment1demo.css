@@ -22,6 +22,13 @@
     padding-top: 5px;
     cursor: pointer;
   }
+  .navbar-ul img{
+    padding: 0px;
+    width: 25px;
+    height: 25px;
+    color: #e7e7e7;
+    
+}
   
   .navbar-ul li {
     color: black;
@@ -52,7 +59,7 @@
   
   .hero-image {
     background: 
-      url("https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-air-segment-202301?wid=800&hei=600&fmt=png-alpha&.v=1671647221757") no-repeat center center;
+      url("img1.png") no-repeat center center;
     height: 900px;
     background-size: cover;
     display: flex;
